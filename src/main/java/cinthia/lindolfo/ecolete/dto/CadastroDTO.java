@@ -1,7 +1,6 @@
 package cinthia.lindolfo.ecolete.dto;
 
 import jakarta.validation.constraints.*;
-
 public class CadastroDTO {
     @NotBlank(message = "Nome é obrigatório")
     private String nome;
